@@ -215,5 +215,31 @@ a.btn-outline-danger {
 
 
 
+.div_MenuHorizontal {
+    padding: 15px 0;
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.155);
+}
+
+@media screen and (min-width: 768px) {
+    .div_MenuHorizontal {
+        display: flex;
+    }
+}
+.div_MenuHorizontal a {
+    font-family: Inter var, Inter, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 32px;
+    margin-right: 40px;
+    display: inline-block;
+    text-decoration:none;
+}
+
+
+
 
 
