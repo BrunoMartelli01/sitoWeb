@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <title>My Website demo</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" rel="stylesheet">
 
 </head>
 <body>
@@ -28,27 +28,29 @@
         <div class="borderBottomHeader">
             <div class="div_header container">
                 <div class="div_menuButton">
-                    <svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="Header_menuIcon__fWhRw">
+                    <svg fill="none" height="24" viewBox="0 0 24 24" width="24"
+                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M3 17h18a1 1 0 0 1 .117 1.993L21 19H3a1 1 0 0 1-.117-1.993L3 17h18H3Zm0-6 18-.002a1 1 0 0 1 .117 1.993l-.117.007L3 13a1 1 0 0 1-.117-1.993L3 11l18-.002L3 11Zm0-6h18a1 1 0 0 1 .117 1.993L21 7H3a1 1 0 0 1-.117-1.993L3 5h18H3Z"
-                                fill="currentColor"></path>
+                              fill="currentColor"></path>
                     </svg>
                     <a>Esplora</a>
                 </div>
                 <div class="div_logoContainer">
                     <a href="">
-                        <img alt="my website logo" src="img/logo.png" class="img_logo" style="color: transparent;width: 70%"/></a>
+                        <img alt="my website logo" class="img_logo" src="img/logo.png"
+                             style="color: transparent;width: 70%"/></a>
                 </div>
                 <div class="div_loginButtons">
-                        <div class="div_UserPanel">
-                            <a role="button" tabindex="0" class="btn btn-primary"> Iscriviti </a>
-                            <a role="button" tabindex="0" class="btn btn-outline-danger">Entra</a>
-                        </div>
+                    <div class="div_UserPanel">
+                        <a class="btn btn-primary" role="button" tabindex="0"> Iscriviti </a>
+                        <a class="btn btn-outline-danger" role="button" tabindex="0">Entra</a>
                     </div>
+                </div>
             </div>
         </div>
         <div class="div_MenuHorizontal">
             <div class="container">
-                <a  href="">link_1</a><a
+                <a href="">link_1</a><a
                     href="">link_2</a><a
                     href="">link_3</a><a
                     href="">link_4</a><a
@@ -67,42 +69,970 @@
             </div>
         </div>
     </header>
+    <main>
+        <div class="container">
+            <div class="GridRow BorderBottom row">
+                <div
+                        class="GridColumn  col-lg-12"
+                        style="padding-left: 16px; padding-right: 16px"
+                >
+                    <div
+                            class=" PostCardFather  PostCard"
+                    >
+                        <article
+                                class="div_PostCardFirstPost "
+                        >
+                            <div class="PostCardBigPostImgContainer ">
 
+                                <img
+                                        height="780"
+                                        src="img/post_1.jpg"
+                                        width="1170"
+                                />
+                            </div>
+                            <div class="postCardMeta PostCardMetaFirstPost">
+                                <a
+                                        class="PostCardCategory"
+                                >Eletronica</a>
+                                <h2 class="PostCardTitleFirstPost">
+                                    <a
+
+                                    >«Un computer è davvero incredible»</a
+                                    >
+                                </h2>
+                                <div class="PostCardDetails">
+                                    <p class="PostCardAuthor">
+                            <span>Bruno Martelli </span
+                            ><span class="PostCardFirstPost"
+                                    >0 gennaio 0000</span
+                                    >
+                                    </p>
+                                    <div class="postContentMenu PostCardIcon">
+                                        <div>
+                                            <button
+                                                    class="PostContextMenu dropdown-toggle btn btn-success">
+                                                <div class="IconButton">
+                                                    <svg fill="none" height="1em" viewBox="0 0 24 24" width="1em"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                              fill="currentColor">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <p class="PostCardSummaryFirstPost">
+                          <span
+                                  class="PostCardSummaryIncipitFirstPost"
+                          >Nuovi Computer. </span
+                          >Con la nuova tecnologia, i computer sono diventati incredibili.
+                                    Possiamo fare tutto con i loro processore di nuova generazione. Oltre alla potenza
+                                    di calcolo smisurata consumano la meta dei vecchi computer.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="GridRow BorderBottom row">
+                <div class="GridColumn  border-right col-lg-6 ">
+                    <div class="postCard PostCardFather  PostCard ">
+                        <article class="PostCardMedium PostCardNoImage ">
+                            <div class="postCardMeta PostCardMeta">
+                                <a class="PostCardCategory" href="">
+                                    Politica
+                                </a>
+                                <h2 class="PostCardTitle">
+                                    <a href="">
+                                        La rimonta di Udine: De Toni sindaco grazie al campo largo
+                                    </a>
+                                </h2>
+                                <div class="PostCardDetails">
+                                    <p class="PostCardAuthor">
+              <span>
+                Marinella Salvi
+              </span>
+                                        <span class="postCardData PostCardPostInfo">
+                0 aprile 2023
+              </span>
+                                    </p>
+                                    <div class="postContentMenu PostCardIcon">
+                                        <div class="PostContextMenuDropdown dropdown">
+                                            <button aria-expanded="false"
+                                                    class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                    type="button">
+                                                <div class="IconButton">
+                                                    <svg fill="none" height="1em" viewBox="0 0 24 24" width="1em"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                              fill="currentColor">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="postCardSummary PostCardSummary">
+                                    Il leghista Fontanini sconfitto al secondo turno dal candidato di Pd, Avs e Terzo
+                                    polo, appoggiato al ballottaggio anche dai 5S
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="GridColumn  col-lg-6">
+                    <div class="postCard PostCardFather  PostCard">
+                        <article class="PostCardMedium PostCardNoImage ">
+                            <div class="postCardMeta PostCardMeta">
+                                <a class="PostCardCategory" href="">
+                                    Politica
+                                </a>
+                                <h2 class="PostCardTitle">
+                                    <a href="">
+                                        Comunali, Misiani: «Consolidare il rapporto con il M5s»
+                                    </a>
+                                </h2>
+                                <div class="PostCardDetails">
+                                    <p class="PostCardAuthor">
+              <span>
+                Adriana Pollice
+              </span>
+                                        <span class=" PostCardPostInfo">
+                18 aprile 2023
+              </span>
+                                    </p>
+                                    <div class="postContentMenu PostCardIcon">
+                                        <div class="PostContextMenuDropdown">
+                                            <button aria-expanded="false"
+                                                    class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                    type="button">
+                                                <div class="IconButton">
+                                                    <svg fill="none" height="1em" viewBox="0 0 24 24" width="1em"
+                                                         xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                              fill="currentColor">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="PostCardSummary">
+            <span class="PostCardIncipit">
+              Elezioni
+            </span>
+                                    Il commissario dem a Napoli ha incontrato il sindaco Manfredi e i consiglieri
+                                    regionali. Il tema terzo mandato del governatore De Luca resta sospeso, priorità
+                                    alle prossime alleanze
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <div class="GridRow BorderBottom row">
+                <div class="GridColumn  col-lg-12 ">
+                    <div class="PostRow ">
+                        <div class="CollectionRowTitle">
+                            <a class="Title" href="">
+                                Europa
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="PostCardFather">
+                                    <article class="PostCardSmall PostCardNoCategory">
+                                        <div class="PostCardImgContainer">
+                                            <a class="postCardImageLink"
+                                               href="">
+                                                <img alt="Macron “solenne” in tv, accolto in piazza dal cacerolazo"
+                                                     src="img/post_2.jpg"
+                                                     title="Macron “solenne” in tv, accolto in piazza dal cacerolazo"></a>
+                                        </div>
+                                        <div class="postCardMeta PostCardMeta">
+                                            <h2 class="PostCardTitle">
+                                                <a href="">
+                                                    Macron “solenne” in tv, accolto in piazza dal cacerolazo
+                                                </a>
+                                            </h2>
+                                            <div class="PostCardDetails">
+                                                <p class="PostCardAuthor">
+                    <span>
+                      Anna Maria Merlo
+                    </span>
+                                                    <span class="PostCardPostInfo">
+                      PARIGI
+                    </span>
+                                                    <span class="PostCardPostInfo">
+                      18 aprile 2023
+                    </span>
+                                                </p>
+                                                <div class="postContentMenu PostCardIcon">
+                                                    <div>
+                                                        <button aria-expanded="false"
+                                                                class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                                type="button">
+                                                            <div class="IconButton">
+                                                                <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                     width="1em"
+                                                                     xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                          fill="currentColor">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="PostCardFather">
+                                    <article class="PostCardSmall PostCardNoCategory">
+                                        <div class="PostCardImgContainer">
+                                            <a class="postCardImageLink"
+                                               href="">
+                                                <img alt="Macron “solenne” in tv, accolto in piazza dal cacerolazo"
+                                                     src="img/post_2.jpg"
+                                                     title="Macron “solenne” in tv, accolto in piazza dal cacerolazo"></a>
+                                        </div>
+                                        <div class="postCardMeta PostCardMeta">
+                                            <h2 class="PostCardTitle">
+                                                <a href="">
+                                                    Macron “solenne” in tv, accolto in piazza dal cacerolazo
+                                                </a>
+                                            </h2>
+                                            <div class="PostCardDetails">
+                                                <p class="PostCardAuthor">
+                                                <span>
+                                                    Anna Maria Merlo
+                                                </span>
+                                                    <span class="PostCardPostInfo">
+                                                      PARIGI
+                                                    </span>
+                                                    <span class="PostCardPostInfo">
+                                                      18 aprile 2023
+                                                    </span>
+                                                </p>
+                                                <div class="postContentMenu PostCardIcon">
+                                                    <div>
+                                                        <button aria-expanded="false"
+                                                                class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                                type="button">
+                                                            <div class="IconButton">
+                                                                <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                     width="1em"
+                                                                     xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                          fill="currentColor">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="PostCardFather">
+                                    <article class="PostCardSmall PostCardNoCategory">
+                                        <div class="PostCardImgContainer">
+                                            <a class="postCardImageLink"
+                                               href="">
+                                                <img alt="Macron “solenne” in tv, accolto in piazza dal cacerolazo"
+                                                     src="img/post_2.jpg"
+                                                     title="Macron “solenne” in tv, accolto in piazza dal cacerolazo"></a>
+                                        </div>
+                                        <div class="postCardMeta PostCardMeta">
+                                            <h2 class="PostCardTitle">
+                                                <a href="">
+                                                    Macron “solenne” in tv, accolto in piazza dal cacerolazo
+                                                </a>
+                                            </h2>
+                                            <div class="PostCardDetails">
+                                                <p class="PostCardAuthor">
+                    <span>
+                      Anna Maria Merlo
+                    </span><span class="PostCardPostInfo">
+                      PARIGI
+                    </span><span class="PostCardPostInfo">
+                      18 aprile 2023
+                    </span>
+                                                </p>
+                                                <div class="postContentMenu PostCardIcon">
+                                                    <div>
+                                                        <button aria-expanded="false"
+                                                                class="PostContextMenu dropdown-toggle btn btn-success"
+                                                                type="button">
+                                                            <div class="IconButton">
+                                                                <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                     width="1em"
+                                                                     xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                          fill="currentColor">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="PostCardFather">
+                                    <article class="PostCardSmall PostCardNoCategory">
+                                        <div class="PostCardImgContainer">
+                                            <a class="postCardImageLink"
+                                               href="">
+                                                <img alt="Macron “solenne” in tv, accolto in piazza dal cacerolazo"
+                                                     src="img/post_2.jpg"
+                                                     title="Macron “solenne” in tv, accolto in piazza dal cacerolazo"></a>
+                                        </div>
+                                        <div class="postCardMeta PostCardMeta">
+                                            <h2 class="PostCardTitle">
+                                                <a href="">
+                                                    Macron “solenne” in tv, accolto in piazza dal cacerolazo
+                                                </a>
+                                            </h2>
+                                            <div class="PostCardDetails">
+                                                <p class="PostCardAuthor">
+                    <span>
+                      Anna Maria Merlo
+                    </span>
+                                                    <span class="PostCardPostInfo">
+                      PARIGI
+                    </span>
+                                                    <span class="PostCardPostInfo">
+                      18 aprile 2023
+                    </span>
+                                                </p>
+                                                <div class="postContentMenu PostCardIcon">
+                                                    <div>
+                                                        <button aria-expanded="false"
+                                                                class="PostContextMenu dropdown-toggle btn btn-success"
+                                                                id="react-aria-3"
+                                                                type="button">
+                                                            <div class="IconButton">
+                                                                <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                     width="1em"
+                                                                     xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                          fill="currentColor">
+                                                                    </path>
+                                                                </svg>
+                                                            </div>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="GridRow BorderBottom row">
+                <div class="GridColumn  border-right col-lg-4 ">
+                    <div class="Banner">
+                        <a class="BanneImg" href="">
+                            <img alt="" id="611043" src="img/post_3.jpg" title=""></a>
+                        <a class="BannerLink btn btn-outline-danger" href=""
+                           role="button"
+                           tabindex="0">
+                            Approfondisci
+                        </a>
+                    </div>
+                </div>
+                <div class="GridColumn  col-lg-8 ">
+                    <div class="PostCollection ">
+                        <div class="PostCollectionTitle ">
+                            <a class="PostCollectionLink" href="" style="color:#2c5dbf">
+                                Big Data e IA
+                            </a>
+                        </div>
+                        <div class="PostCollectionPhoto-1">
+                            <div class="postCard PostCardFather PostCardCollectionItem PostCardPhoto PostCardCollectionItemBorder ">
+                                <article class="PostCardMediumLarge  PostCardNoCategory">
+                                    <div class="PostCardImgContainer">
+
+                                        <img alt="rimediamo" copyright=""
+                                             description="" src="img/post_1.jpg"
+                                             title="ChatGpt non s’ha da fare, senza scienza democratica"/>
+                                    </div>
+                                    <div class="PostCardMeta">
+                                        <h2 class="PostCardTitle ">
+                                            <a class="snipcss0-7-12-13"
+                                               href="">
+                                                ChatGpt non s’ha da fare, senza scienza democratica
+                                            </a>
+                                        </h2>
+                                        <div class="PostCardDetails ">
+                                            <p class="PostCardAuthor">
+                                                <span>
+                                                Vincenzo Vita
+                                                </span>
+                                                <span class="PostCardPostInfo">
+                                                              19 aprile 2023
+                                                </span>
+                                            </p>
+                                            <div class="postContentMenu PostCardIcon">
+                                                <div>
+                                                    <button aria-expanded="false"
+                                                            class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                            type="button">
+                                                        <div class="IconButton">
+                                                            <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                 width="1em"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                      fill="currentColor">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="postCard PostCardFather PostCardCollectionItem PostCardPhoto PostCardCollectionItemBorder">
+                                <article class="PostCardMediumLarge  PostCardNoCategory" style="border-bottom: none">
+                                    <div class="PostCardImgContainer">
+
+                                        <img alt="rimediamo" copyright=""
+                                             description="" src="img/post_1.jpg"
+                                             title="ChatGpt non s’ha da fare, senza scienza democratica"/>
+                                    </div>
+                                    <div class="PostCardMeta">
+                                        <h2 class="PostCardTitle ">
+                                            <a
+                                                    href="">
+                                                ChatGpt non s’ha da fare, senza scienza democratica
+                                            </a>
+                                        </h2>
+                                        <div class="PostCardDetails ">
+                                            <p class="PostCardAuthor">
+                                                <span>
+                                                Vincenzo Vita
+                                                </span>
+                                                <span class="PostCardPostInfo">
+                                                              19 aprile 2023
+                                                </span>
+                                            </p>
+                                            <div class="postContentMenu PostCardIcon">
+                                                <div>
+                                                    <button aria-expanded="false"
+                                                            class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                            type="button">
+                                                        <div class="IconButton">
+                                                            <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                 width="1em"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                      fill="currentColor">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="postCard PostCardFather PostCardCollectionItem PostCardPhoto PostCardCollectionItemBorder "
+                                 style="border-bottom: none">
+                                <article class="PostCardMediumLarge  PostCardNoCategory">
+                                    <div class="PostCardImgContainer">
+
+                                        <img alt="rimediamo" copyright=""
+                                             description="" src="img/post_1.jpg"
+                                             title="ChatGpt non s’ha da fare, senza scienza democratica"/>
+                                    </div>
+                                    <div class="PostCardMeta">
+                                        <h2 class="PostCardTitle ">
+                                            <a class="snipcss0-7-12-13"
+                                               href="">
+                                                ChatGpt non s’ha da fare, senza scienza democratica
+                                            </a>
+                                        </h2>
+                                        <div class="PostCardDetails ">
+                                            <p class="PostCardAuthor">
+                                                <span>
+                                                Vincenzo Vita
+                                                </span>
+                                                <span class="PostCardPostInfo__EVZ1i">
+                                                              19 aprile 2023
+                                                </span>
+                                            </p>
+                                            <div class="postContentMenu PostCardIcon">
+                                                <div>
+                                                    <button aria-expanded="false"
+                                                            class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                            type="button">
+                                                        <div class="IconButton">
+                                                            <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                 width="1em"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                      fill="currentColor">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="GridRow row">
+                <div class="GridColumn  border-right col-lg-4"
+                     style="padding-left:16px;padding-right:16px; ">
+                    <div class="PostCollection"
+                         style="background-color:transparent">
+                        <div class="PostCollectionTitle" style="color:blue"><a
+                                class="PostCollectionLink" href=""
+                                style="color:#2c5dbf">Carcere</a></div>
+                        <div class="PostCollectionImg">
+                            <div class="PostCardFather PostCardCollectionItem PostCardCollectionItemBorder PostCard">
+                                <article
+                                        class="PostCardSmallMedium PostCardNoImage PostCardNoCategory">
+                                    <div class="PostCardMeta">
+                                        <h2 class="PostCardTitle"><a
+                                                href="">
+                                            <div class="Badge"><span
+                                                    class="BadgeOuterConteiner" title="developing"><svg
+                                                    fill="none" height="1em"
+                                                    viewBox="0 0 24 20" width="1em" xmlns="http://www.w3.org/2000/svg"><path
+                                                    d="M10.478 17h3.032l-.275-4.922 4.243 2.71L19 12.212 14.458 10 19 7.788l-1.522-2.576-4.243 2.71L13.51 3h-3.032l.287 4.922-4.243-2.71L5 7.788 9.53 10 5 12.212l1.522 2.576 4.243-2.71L10.478 17Z"
+                                                    fill="#BF2C2C"></path></svg></span></div>
+                                            Caso Cospito, la Consulta boccia l’ergastolo non bilanciato dalle
+                                            possibili attenuanti</a></h2>
+                                        <div class="PostCardDetails"><p class="PostCardAuthor"><span
+                                        >Redazione</span></p>
+
+                                            <div class="postContentMenu PostCardIcon">
+                                                <div>
+                                                    <button aria-expanded="false"
+                                                            class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                            type="button">
+                                                        <div class="IconButton">
+                                                            <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                 width="1em"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                      fill="currentColor">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class=" PostCardFather PostCardCollectionItem PostCardCollectionItemBorder PostCard">
+                                <article
+                                        class="PostCardSmallMedium PostCardNoImage PostCardNoCategory">
+                                    <div class="postCardMeta"><h2
+                                            class="PostCardTitle"><a
+                                            href="">Cospito in Consulta, oggi
+                                        la decisione</a></h2>
+                                        <div class="PostCardDetails"><p class="PostCardAuthor"><span
+                                        >Redazione</span></p>
+                                            <div class="postContentMenu PostCardIcon">
+                                                <div>
+                                                    <button aria-expanded="false"
+                                                            class="PostContextMenu dropdown-toggle btn btn-success"
+                                                            type="button">
+                                                        <div class="IconButton">
+                                                            <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                 width="1em"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                      fill="currentColor">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class=" PostCardFather PostCardCollectionItem PostCardCollectionItemBorder PostCard">
+                                <article
+                                        class="PostCardSmallMedium PostCardNoImage PostCardNoCategory">
+                                    <div class="postCardMeta"><h2
+                                            class="PostCardTitle"><a
+                                            href="">Cospito in Consulta, oggi
+                                        la decisione</a></h2>
+                                        <div class="PostCardDetails"><p class="PostCardAuthor"><span
+                                        >Redazione</span></p>
+                                            <div class="postContentMenu PostCardIcon">
+                                                <div>
+                                                    <button aria-expanded="false"
+                                                            class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                            type="button">
+                                                        <div class="IconButton">
+                                                            <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                 width="1em"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                      fill="currentColor">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class=" PostCardFather PostCardCollectionItem PostCardCollectionItemBorder PostCard"
+                                 style="border-bottom: none">
+                                <article
+                                        class="PostCardSmallMedium PostCardNoImage PostCardNoCategory">
+                                    <div class="postCardMeta"><h2
+                                            class="PostCardTitle"><a
+                                            href="">Cospito in Consulta, oggi
+                                        la decisione</a></h2>
+                                        <div class="PostCardDetails"><p class="PostCardAuthor"><span
+                                        >Redazione</span></p>
+                                            <div class="postContentMenu PostCardIcon">
+                                                <div>
+                                                    <button aria-expanded="false"
+                                                            class="PostContextMenu dropdown-toggle btn btn-success"
+                                                            type="button">
+                                                        <div class="IconButton">
+                                                            <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                 width="1em"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                      fill="currentColor">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="GridColumn border-right col-lg-4"
+                     style="padding-left:16px;padding-right:16px">
+                    <div class="PostCollection"
+                         style="background-color:transparent">
+                        <div class="PostCollectionTitle" style="color:#2c5dbf"><a
+                                class="PostCollectionLink" href=""
+                                style="color:#2c5dbf">Diritti</a></div>
+                        <div class="PostCollectionImg">
+                            <div class="PostCardFather PostCardCollectionItem PostCardCollectionItemBorder PostCard">
+                                <article
+                                        class="PostCardSmallMedium PostCardNoImage PostCardNoCategory">
+                                    <div class="postCardMeta "><h2
+                                            class="PostCardTitle"><a
+                                            href="">La
+                                        guerra arcobaleno, queer russi e ucraini rifugiati insieme a Berlino</a>
+                                    </h2>
+                                        <div class="PostCardDetails"><p class="PostCardAuthor">
+                                            <span>Alice Dominese</span></p>
+                                            <div class="postContentMenu PostCardIcon">
+                                                <div>
+                                                    <button aria-expanded="false"
+                                                            class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                            type="button">
+                                                        <div class="IconButton">
+                                                            <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                 width="1em"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                      fill="currentColor">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="PostCardFather PostCardCollectionItem PostCardCollectionItemBorder PostCard">
+                                <article
+                                        class="PostCardSmallMedium PostCardNoImage PostCardNoCategory">
+                                    <div class="postCardMeta "><h2
+                                            class="PostCardTitle"><a
+                                            href="">La
+                                        guerra arcobaleno, queer russi e ucraini rifugiati insieme a Berlino</a>
+                                    </h2>
+                                        <div class="PostCardDetails"><p class="PostCardAuthor">
+                                            <span>Alice Dominese</span></p>
+                                            <div class="postContentMenu PostCardIcon">
+                                                <div>
+                                                    <button
+                                                            class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                            type="button">
+                                                        <div class="IconButton">
+                                                            <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                 width="1em"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                      fill="currentColor">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="PostCardFather PostCardCollectionItem PostCardCollectionItemBorder PostCard">
+                                <article
+                                        class="PostCardSmallMedium PostCardNoImage PostCardNoCategory">
+                                    <div class="postCardMeta "><h2
+                                            class="PostCardTitle"><a
+                                            href="">La
+                                        guerra arcobaleno, queer russi e ucraini rifugiati insieme a Berlino</a>
+                                    </h2>
+                                        <div class="PostCardDetails"><p class="PostCardAuthor">
+                                            <span>Alice Dominese</span></p>
+                                            <div class="postContentMenu PostCardIcon">
+                                                <div>
+                                                    <button aria-expanded="false"
+                                                            class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                            type="button">
+                                                        <div class="IconButton">
+                                                            <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                 width="1em"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                      fill="currentColor">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="PostCardFather PostCardCollectionItem PostCardCollectionItemBorder PostCard"
+                                 style="border-bottom: none">
+                                <article
+                                        class="PostCardSmallMedium PostCardNoImage PostCardNoCategory">
+                                    <div class="postCardMeta "><h2
+                                            class="PostCardTitle"><a
+                                            href="">La
+                                        guerra arcobaleno, queer russi e ucraini rifugiati insieme a Berlino</a>
+                                    </h2>
+                                        <div class="PostCardDetails"><p class="PostCardAuthor">
+                                            <span>Alice Dominese</span></p>
+                                            <div class="postContentMenu PostCardIcon">
+                                                <div>
+                                                    <button aria-expanded="false"
+                                                            class="PostContextMenu dropdown-toggle btn btn-success"
+
+                                                            type="button">
+                                                        <div class="IconButton">
+                                                            <svg fill="none" height="1em" viewBox="0 0 24 24"
+                                                                 width="1em"
+                                                                 xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M12 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm0 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z"
+                                                                      fill="currentColor">
+                                                                </path>
+                                                            </svg>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="GridColumn col-lg-4">
+                    <div class=" h-100" style="background-color:#D4E6E8">
+                        <div class="ProductCard">
+                            <div class="ProductCardHeader"><img alt=""
+                                                                data-nimg="1"
+                                                                decoding="async"
+                                                                height="360" loading="lazy"
+                                                                src="img/pubblicita.jpg"
+                                                                style="color:transparent"
+                                                                width="420"></div>
+                            <div class="ProductCardBody">
+                                <div><h2 class=mb-2"">L'anello</h2>
+                                    <div class="subhead-4">39,00&nbsp;€</div>
+                                    <div class="my-3">
+                                        <div class="smt-25 mb-4"><p><strong>Sostieni i progetti di Sauron con
+                                            questo abbonamento speciale.</strong></p>
+                                            <p>Digitale 3 mesi + Membership 3 mesi</p></div>
+                                    </div>
+                                </div>
+                                <div class="ProductCardFooter gap-2"><a class="flex-grow-1 btn btn-primary"
+                                                                        href=""
+                                                                        role="button"
+                                                                        tabindex="0">Abbonati</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="MainFooter">
+        <div class="Divider m-0"></div>
+        <div class="container Breadcrumbs ">
+            <div class="BreadcrumbsNav"><a href="" style="text-decoration:none">il sitoWeb</a></div>
+        </div>
+        <div class="Divider m-0"></div>
+        <div class="container FooterContainer">
+            <div class="FooterLeftColumn">
+                <div class="FooterPrimaryBox"><span class="FooterMenuTitle">Il mio sitoWeb</span><a
+                        class="FooterButton btn btn-primary" href="" role="button" tabindex="0">Registrati</a><a
+                        class="FooterButton btn btn-outline-danger" href="" role="button" tabindex="0">Accedi</a>
+                    <div class="FooterPrimaryMenu FooterMenu"><span
+                            class="FooterMenuTitle">info</span><a href=""
+                                                                  target="_self">Amore 2023</a><a
+                            href="" target="_self">Aiuto</a><a href="/newsletters">Newsletter</a><a
+                            href="" target="_self">Tariffe</a><a
+                            href="" target="_self">Abbonamenti</a><a
+                            href="" target="_self">La membership del SitoWeb</a><a
+                            href="" target="_self">Termini e
+                        condizioni</a><a href="" target="_self">Privacy</a><a
+                            href="" target="_self">Cookie</a></div>
+                </div>
+            </div>
+            <div class=" FooterCentralColumn FooterSecondColumn">
+                <div class="FooterCentralColumnInner">
+                    <div class=" FooterMenu"><span class="FooterMenuTitle">notizie</span><a
+                            href="" target="_self">Editoriale</a><a
+                            href="" target="_self">Commenti</a><a
+                            href="" target="_self">Politica</a><a
+                            href="" target="_self">Internazionale</a><a
+                            href="" target="_self">Europa</a><a
+                            href="" target="_self">Italia</a><a
+                            href="" target="_self">Lavoro</a><a
+                            href="" target="_self">Economia</a><a
+                            href="" target="_self">Scuola</a><a
+                            href="" target="_self">Cultura</a><a
+                            href="" target="_self">Visioni</a><a
+                            href="" target="_self">Sport</a><a
+                            href="" target="_self">Rubriche</a><a
+                            href="" target="_self">Appelli</a></div>
+                </div>
+                <div class="FooterCentralColumnInner">
+                    <div class=" FooterMenu"><span class="FooterMenuTitle">inserti</span><a
+                            href="" target="_self">Alias</a><a
+                            href="" target="_self">Alias Domenica</a><a
+                            href="" target="_self">ExtraTerrestre</a><a
+                            href="">Le Monde Diplomatique</a></div>
+                </div>
+            </div>
+            <div class=" FooterCentralColumn undefined">
+                <div class="FooterCentralColumnInner">
+                    <div class=" FooterMenu"><span class="FooterMenuTitle">il SitoWeb</span><a
+                            href="" target="_self">Gerenza</a><a
+                            href="" target="_self">Store</a><a
+                            href="" target="_self">Abbonamenti</a><a
+                            href="" target="_self">Contatti</a><a
+                            href="" target="_self">Aiuto</a></div>
+                    <div class=" FooterMenu"><span class="FooterMenuTitle">il quotidiano</span><a
+                            href="">Edizioni Pdf</a><a href="">Ricerca avanzata</a><a
+                            href="" target="_self">Archivio storico</a></div>
+                </div>
+                <div class="FooterCentralColumnInner">
+                    <div class=" FooterMenu"><span class="FooterMenuTitle">social network</span><a
+                            href="" target="_self">Facebook</a><a
+                            href="" target="_self">Twitter</a><a
+                            href="" target="_self">Instagram</a><a
+                            href="" target="_self">Pinterest</a><a
+                            href="" target="_self">YouTube</a><a
+                            href="" target="_self">Vimeo</a><a
+                            href="" target="_self">Podcast</a></div>
+                </div>
+            </div>
+            <div class="FooterRightColumn">
+                <div class=" FooterMenu"><span class="FooterMenuTitle">il collettivo</span><a
+                        href="" target="_self">Amore 2023</a><a href="">MdM il
+                    sito del sito</a><a href="">- cooperativa</a><a href="">
+                    giornale</a><a href="">- piattaforma</a><a href="">- comunità</a><a
+                        href="">- impresa</a><a href="">- storia</a><a
+                        href="" target="_self">La membership del
+                    SitoWeb</a><a href="" target="_self">il Collettivo
+                    digitale</a><a href="" target="_self">Global (English edition)</a><a
+                        href="" target="_self">#ilSitoWeb50</a><a
+                        href="" target="_self">- app iOS </a><a href="" target="_self">- app Android il</a><a
+                        href="" target="_self">-
+                    app iOS Diplò Italia</a><a href=""
+                                               target="_self">- app Android Diplò Italia</a><a
+                        href="">Diritti foto e articoli</a><a
+                        href="">Correzioni</a></div>
+            </div>
+        </div>
+        <div class="Divider m-0"></div>
+        <div class="container FooterBottomContainer"><span>© 2023 il nuovo sitoWeb società coop. editrice</span>
+            <div><a href="">Termini e condizioni</a><a
+                    href="">Cookie</a><a href="">Privacy</a>
+            </div>
+        </div>
+        <div class="Divider m-0"></div>
+    </div>
 </div>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
-<p>s</p>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+<script crossorigin="anonymous"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

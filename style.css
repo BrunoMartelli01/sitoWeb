@@ -14,15 +14,14 @@
 }
 
 
-
-.backgroundTopHeader  a {
-    text-decoration:none;
+.backgroundTopHeader a {
+    text-decoration: none;
     margin-left: 20px;
     color: #6b6b6b
 }
 
 @media screen and (min-width: 768px) {
-    .backgroundTopHeader  {
+    .backgroundTopHeader {
         height: 32px;
         display: flex;
         justify-content: space-between;
@@ -56,70 +55,48 @@
 }
 
 
-.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl {
-    display: flex;
-    flex-wrap: inherit;
-    align-items: center;
-    justify-content: space-between
-}
 
 
-
-
-
-@media screen and (max-width: 700px) {
-    .Header {
-        top: 0;
-    }
-}
 .div_menuButton {
     cursor: pointer;
     display: flex;
     align-items: center;
 }
+
 @media screen and (min-width: 992px) {
- .div_menuButton {
+    .div_menuButton {
         min-width: 250px;
     }
 }
- .borderBottomHeader {
+
+.borderBottomHeader {
     border-bottom: 4px solid #2C5DBFFF;
 }
+
 @media screen and (min-width: 768px) {
     .borderBottomHeader {
         border-bottom: 6px solid #2C5DBFFF;
     }
 }
+
 .div_header {
     display: flex;
     align-items: center;
     height: 66px;
 }
+
 @media screen and (min-width: 768px) {
-     .div_header {
+    .div_header {
         height: 106px;
         justify-content: space-between;
     }
-}
-
-
-@media screen and (min-width: 768px) {
-
-    .Header_menuLabel___mM75 {
-        display: initial;
-    }
-}
-
-.Header_menuIcon__fWhRw {
-    width: 24px;
-    height: 24px;
-    margin-right: 6px;
 }
 
 .div_loginButtons {
     justify-content: flex-end;
     display: none;
 }
+
 @media screen and (min-width: 768px) {
 
     .div_loginButtons {
@@ -127,6 +104,7 @@
         min-width: 250px;
     }
 }
+
 button {
     margin-left: 12px;
     padding-left: 22px;
@@ -139,6 +117,7 @@ button {
     justify-content: center;
     width: calc(100vw - 90px);
 }
+
 @media screen and (min-width: 768px) {
 
     .div_logoContainer {
@@ -151,12 +130,14 @@ button {
     height: 100%;
     max-width: 150px;
 }
+
 @media screen and (min-width: 768px) {
 
     .img_logo {
         max-width: 240px;
     }
 }
+
 @media screen and (min-width: 992px) {
 
     .img_logo {
@@ -165,7 +146,7 @@ button {
 
 }
 
- .div_UserPanel {
+.div_UserPanel {
     height: 88px;
     display: flex;
     align-items: center;
@@ -177,6 +158,7 @@ button {
 .div_UserPanel > a {
     margin: 0 12px;
 }
+
 @media screen and (min-width: 768px) {
 
     .div_UserPanel > a {
@@ -188,7 +170,7 @@ button {
 a.btn {
     --bs-btn-padding-x: 22px;
     --bs-btn-padding-y: 10.5px;
-    --bs-btn-font-family: Inter var,Inter,sans-serif;
+    --bs-btn-font-family: Inter var, Inter, sans-serif;
     --bs-btn-font-weight: 700;
     --bs-btn-line-height: 19px;
     --bs-btn-border-width: 1px;
@@ -210,11 +192,6 @@ a.btn-outline-danger {
 }
 
 
-
-
-
-
-
 .div_MenuHorizontal {
     padding: 15px 0;
     display: none;
@@ -229,6 +206,7 @@ a.btn-outline-danger {
         display: flex;
     }
 }
+
 .div_MenuHorizontal a {
     font-family: Inter var, Inter, sans-serif;
     color: #333;
@@ -236,8 +214,1166 @@ a.btn-outline-danger {
     line-height: 32px;
     margin-right: 40px;
     display: inline-block;
-    text-decoration:none;
+    text-decoration: none;
 }
+
+
+.GridRow {
+    margin: 0;
+    padding-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .GridRow {
+        margin-right: -16px;
+        margin-left: -16px;
+        border-bottom: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .GridRow {
+        padding-top: 48px;
+    }
+
+}
+
+
+
+
+
+p.PostCardAuthor {
+    color: #6b6b6b;
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 21px;
+}
+
+
+.PostCardBigPostImgContainer {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .PostCardFather .PostCardBigPostImgContainer {
+        width: 50%;
+    }
+}
+
+.PostCardFather .PostCardBigPostImgContainer img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1.33;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.PostCardTitleFirstPost a {
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 800;
+    font-family: Inter var, Inter, sans-serif;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+ .PostCardSummaryFirstPost {
+    color: #333;
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+@media screen and (min-width: 992px) {
+  .PostCardSummaryFirstPost {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+.PostCardMetaFirstPost {
+    width: 100%;
+}
+
+.PostCardCategory {
+    font-family: Inter var, Inter, sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #2c38bf;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.PostCardBigPostImgContainer {
+    width: 100%;
+}
+
+.GridColumn {
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+}
+.GridColumn.border-right {
+    border-right:none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+@media screen and (min-width: 992px) {
+    .GridColumn.border-right {
+        border-right:  solid rgba(0, 0, 0, 0.155) 1px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+
+
+ .PostCardTitleFirstPost a {
+    font-size: 33px;
+    line-height: 40px;
+    margin: 0 0 8px;
+}
+
+ .PostCardAuthor {
+    margin-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+
+
+ .PostCardMetaFirstPost {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .div_PostCardFirstPost > article {
+        display: flex;
+    }
+
+    .PostCardBigPostImgContainer {
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .PostCardBigPostImgContainer img {
+        height: 360px;
+        max-height: none;
+    }
+
+    .PostCardMetaFirstPost {
+        padding: 0;
+    }
+
+    .PostCardMetaFirstPost {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .PostCardBigPostImgContainer img {
+        height: 438px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .col-lg-6 .col-lg-6 .postCard .postCardMeta {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+
+.PostCardMetaFirstPost {
+    padding: 16px;
+}
+.BorderBottom{
+    border-bottom: solid rgba(0, 0, 0, 0.155) 1px;
+}
+@media screen and (min-width: 992px) {
+    .GridRow:after {
+        content: "";
+        margin-right: 16px;
+        margin-left: 16px;
+        height: 48px;
+        width: 100%;
+    }
+
+
+
+}
+
+.PostCardSummaryIncipitFirstPost {
+    text-transform: uppercase;
+    font-family: Inter var, Inter, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    display: inline;
+    margin-right: 6px;
+}
+
+
+.PostCardFather > article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.PostCardFather .PostCardMeta {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .PostCardMedium .PostCardMeta {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .PostCardMedium .PostCardMeta {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.PostCardNoImage .PostCardMeta {
+    width: 100%;
+}
+
+
+.PostCardFather .PostCardTitle {
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 17px;
+    font-weight: 800;
+    font-family: Inter var, Inter, sans-serif;
+    color: #333;
+    margin-bottom: 8px;
+
+}
+
+.PostCardMedium .PostCardTitle {
+    margin: 0 0 8px;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+
+.PostCardNoImage.PostCardMedium .PostCardTitle {
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+@media screen and (min-width: 992px) {
+    .PostCardNoImage.PostCardMedium .PostCardTitle {
+        font-size: 23px;
+        line-height: 28px;
+    }
+}
+
+ .PostCardDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    padding-right: 20px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-align: left;
+
+}
+
+.PostCardSummary {
+    color: #333;
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+@media screen and (min-width: 992px) {
+ .PostCardSummary {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+.PostCardFather .PostCardTitle a {
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 800;
+    font-family: Inter var, Inter, sans-serif;
+    color: #333;
+    margin-bottom: 8px;
+    text-decoration: none;
+
+}
+
+.PostCardMedium .PostCardTitle a {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.PostCardNoImage.PostCardMedium .PostCardTitle a {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media screen and (min-width: 992px) {
+    .PostCardNoImage.PostCardMedium .PostCardTitle a {
+        font-size: 23px;
+        line-height: 28px;
+    }
+}
+
+.PostCardDetails p {
+    margin-top: 0;
+}
+
+p.PostCardAuthor {
+    color: #6b6b6b;
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 21px;
+}
+
+.PostCardIcon {
+    position: absolute;
+    right: 0;
+    bottom: 1em;
+    height: 1em;
+}
+
+
+@media screen and (min-width: 992px) {
+    .PostCardIcon {
+        bottom: .75em;
+    }
+
+    .PostCardFather div[class^="postContentMenu"] {
+        display: none;
+    }
+
+    .PostCardFather:hover div[class^="postContentMenu"] {
+        display: inline-block;
+    }
+}
+
+.PostCardIncipit {
+    text-transform: uppercase;
+    font-family: Inter var, Inter, sans-serif;
+
+    font-weight: 700;
+    font-size: 12px;
+    display: inline;
+    margin-right: 6px;
+}
+
+p .PostCardPostInfo {
+    font-style: normal;
+
+}
+
+p.PostCardAuthor span:not(:first-child):before {
+    display: inline-block;
+    content: " · ";
+    width: 10px;
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.PostContextMenuDropdown {
+    display: inline-block;
+}
+
+button {
+    border-radius: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: none;
+}
+
+
+.dropdown-toggle {
+    white-space: nowrap;
+}
+
+[type="button"]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+.PostContextMenu {
+    background: transparent !important;
+    border: none !important;
+
+    box-shadow: none !important;
+    margin-bottom: .5em;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+    .PostCardFather div[class^="postContentMenu"] button {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.dropdown-toggle:after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.PostContextMenu:after {
+    display: none;
+}
+
+
+.IconButton {
+    width: 32px;
+    height: 32px;
+    color: #333;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+    .IconButton svg {
+    background-color: #f5f5f5;
+    border-radius: 100%;
+    padding: 4px;
+    width: 32px;
+    height: 32px;
+    vertical-align: top;
+}
+
+
+
+
+
+.PostRow a {
+    width: 100%;
+}
+
+.PostRow img {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+    height: auto;
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .PostRow img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+}
+
+
+.CollectionRowTitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+a.Title,
+ .CollectionRowTitle span {
+    margin: 0 12px 0 0;
+    font-family: Inter var, Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    padding: 6px 16px;
+    width: auto;
+    text-decoration: none;
+}
+
+.PostRow .CollectionRowTitle span {
+    color: #6b6b6b;
+}
+
+
+.PostCardSmall .PostCardImgContainer {
+    width: 100%;
+}
+
+.PostCardTitle {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.PostCardSmall img {
+    width: 100%;
+}
+
+.PostCardSmall .PostCardTitle a {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.PostCardFather .PostCardImgContainer img {
+    width: 100%;
+    aspect-ratio: 1.33;
+    object-fit: cover;
+    object-position: center;
+}
+
+.PostCardNoCategory .PostCardTitle {
+    margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .PostCardMeta {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .PostCardMeta {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.PostCardMeta {
+    width: 100%;
+}
+
+
+.PostCardFather .PostCardTitle {
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 800;
+    font-family: Inter var, Inter, sans-serif;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.PostCardSmall .PostCardTitle {
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.PostCardFather .PostCardTitle a {
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 800;
+    font-family: Inter var, Inter, sans-serif;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.PostCardSmall .PostCardTitle a {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.PostContextMenuDropdown {
+    display: inline-block;
+}
+
+
+.PostCardCollectionItem.PostCardCollectionItemBorder {
+    border-bottom: 1px solid #ddd;
+}
+
+
+.PostCardCollectionItem.PostCardCollectionItemBorder article {
+    border-bottom: none;
+}
+
+
+.PostCollection .PostCollectionTitle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+a.PostCollectionLink,
+
+.PostCollectionTitle span {
+    margin: 0 20px 0 0;
+    font-family: Inter var, Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 14px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #f5f5f5;
+    padding: 10px 16px;
+    width: auto;
+    text-decoration: none;
+}
+
+
+a.PostCollectionLink,
+a.PostCollectionLink:visited {
+    color: #2c5dbf;
+}
+
+
+.PostCollectionTitle
+span {
+    color: #6b6b6b;
+}
+
+.PostCollection article {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .PostCollection article {
+        align-items: center;
+    }
+}
+
+
+
+.PostCollection img {
+    margin-right: 13px;
+}
+
+
+.PostCollectionImg article img {
+    min-width: 70px;
+    height: 46px;
+}
+
+
+.Badge {
+    display: inline-flex;
+    height: 1em;
+}
+
+.Badge svg {
+    height: 100%;
+    width: auto;
+}
+
+
+.PostCardNoImage.PostCardSmallMedium .PostCardTitle a {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.ProductCard {
+    width: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ProductCardHeader {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: 160px;
+    background-color: #f5f5f5;
+    justify-content: center;
+}
+
+.ProductCardHeader img {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    object-position: center;
+}
+
+.ProductCardBody {
+    display: flex;
+    padding-top: 25px;
+    padding-right: 16px;
+    padding-left: 16px;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1;
+}
+
+
+.ProductCardFooter {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+}
+
+.ProductCardFooter a {
+    max-width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.MainFooter {
+    font-family: Inter var, Inter, sans-serif;
+    padding: 0 0 24px;
+    margin-bottom: 40px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+@media screen and (min-width: 768px) {
+    .MainFooter {
+        margin-bottom: 24px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+ .FooterBottomContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+@media screen and (min-width: 992px) {
+  .FooterBottomContainer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+ .FooterBottomContainer a,
+ .FooterBottomContainer span {
+    line-height: 18px;
+    font-size: 14px;
+    color: #6b6b6b;
+    TEXT-DECORATION: none;
+}
+.FooterBottomContainer > div {
+    margin-top: 8px;
+}
+@media screen and (min-width: 992px) {
+    .FooterBottomContainer > div {
+        margin-top: 0;
+    }
+}
+.FooterBottomContainer > div a {
+    display: inline-block;
+    margin: 0 8px;
+}
+.FooterContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.FooterContainer > div {
+    box-sizing: border-box;
+    padding-top: 23px;
+}
+@media screen and (min-width: 992px) {
+    .MainFooter .FooterContainer > div {
+        padding-right: 23px;
+    }
+}
+
+.FooterLeftColumn {
+    width: 100%;
+}
+@media screen and (min-width: 992px) {
+
+    .FooterLeftColumn {
+        border-right: 1px solid #ddd;
+        width: 25%;
+    }
+}
+@media screen and (min-width: 1200px) {
+
+    .FooterLeftColumn {
+        width: 270px;
+    }
+}
+
+.FooterCentralColumn {
+    width: 100%;
+    border-top: 1px solid #ddd;
+    display: flex;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .FooterCentralColumn {
+        display: block;
+    }
+}
+
+.FooterCentralColumnInner {
+    width: 50%;
+}
+@media screen and (min-width: 992px) {
+    .FooterCentralColumnInner {
+        width: 100%;
+    }
+
+    .FooterCentralColumn {
+        border-top: none;
+        padding-bottom: 16px;
+        width: 25%;
+        display: block;
+    }
+    .FooterCentralColumn {
+        border-right: 1px solid #ddd;
+    }
+    .FooterRightColumn {
+        width: 25%;
+        border-top: none;
+    }
+}
+@media screen and (min-width: 768px) {
+
+    .FooterCentralColumn {
+        padding-left: 32px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .FooterCentralColumn {
+        width: 308px;
+    }
+}
+
+.FooterSecondColumn {
+    margin-top: 16px;
+}
+@media screen and (min-width: 768px) {
+
+    .FooterSecondColumn {
+        margin-top: 0;
+    }
+}
+
+.FooterRightColumn {
+    width: 100%;
+    border-top: 1px solid #ddd;
+}
+@media screen and (min-width: 768px) {
+
+    .FooterRightColumn {
+        padding-left: 32px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .FooterRightColumn {
+        width: 25%;
+        border-top: none;
+    }
+}
+.FooterPrimaryBox {
+    padding: 25px;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+@media screen and (min-width: 1200px) {
+    .FooterPrimaryBox {
+        width: 252px;
+    }
+    .FooterRightColumn {
+        border-right: none;
+        width: 200px;
+    }
+    .FooterSecondColumn {
+        border-right: 1px solid #ddd;
+    }
+}
+.FooterPrimaryMenu {
+    margin-top: 20px;
+}
+.FooterButton {
+    font-size: 16px;
+    width: 148px;
+    margin: 6px 4px 6px 0;
+}
+
+.FooterMenu {
+    margin-bottom: 20px;
+}
+.FooterMenu a {
+    display: block;
+    color: #333;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.FooterMenuTitle {
+    text-transform: uppercase;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.1em;
+    color: #6b6b6b;
+    margin: 8px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+.Breadcrumbs {
+    display: block;
+}
+.BreadcrumbsNav {
+    line-height: 18px;
+    font-size: 14px;
+    padding: 8px 0;
+}
+.BreadcrumbsNav a {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+
+.Divider {
+    border-top: 1px solid rgba(0, 0, 0, 0.155);
+    margin: 1.5rem 0;
+}
+@media screen and (min-width: 768px) {
+    .Divider {
+        margin: 3rem 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.Banner {
+
+    padding: 46px 24px;
+}
+.BanneImg  {
+    display: flex;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+
+
+
+img {
+    vertical-align: middle;
+}
+
+.Banner .BanneImg img  {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+.PostCollectionPhoto-1 article  {
+    margin-bottom: 24px;
+}
+
+
+
+.PostCardCollectionItem{
+    margin-bottom: 19px;
+}
+@media screen and (min-width: 768px){
+    .PostCardMediumLarge .PostCardMeta  {
+        padding-left: 24px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .PostCardMediumLarge .PostCardMeta {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+
+    .PostCardMediumLarge .PostCardMeta  {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.PostCardCollectionItem.PostCardPhoto .PostCardMeta  {
+    width: calc(100% - 120px);
+    padding-left: 16px;
+}
+@media screen and (min-width: 992px) {
+
+    .PostCardCollectionItem.PostCardPhoto .PostCardMeta  {
+        width: calc(100% - 150px);
+    }
+
+}
+
+.PostCardMediumLarge .PostCardTitle  {
+    margin:  0 0 8px;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.PostCardNoCategory .PostCardTitle  {
+    margin-top: 0;
+}
+
+.PostCardMediumLarge img  {
+    max-height: 207px;
+}
+@media screen and (min-width: 992px) {
+    .PostCardMediumLarge img  {
+        height: 207px;
+        max-height: none;
+    }
+}
+
+.PostCardMediumLarge img  {
+    height: 284px;
+}
+
+.PostCardCollectionItem img  {
+    margin-right: 13px;
+}
+
+
+.PostCollectionPhoto-1 article img  {
+    width: 100px;
+    height: 75px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (min-width: 992px) {
+    .PostCollectionPhoto-1 article img {
+        width: 117px;
+        height: 87px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.PostCardMediumLarge .PostCardTitle a  {
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.PostCardCollectionItem .PostCardTitle a {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.PostCollection article:last-child {
+    margin-bottom: 0;
+}
+
+
+
+
+.PostCardCollectionItem {
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
